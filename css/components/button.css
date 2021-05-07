@@ -1,0 +1,19 @@
+.button {
+    display: inline-block;     
+    color: white;
+    font-size: 20px;
+    padding: 18px 20px;    
+    box-shadow: 5px 5px 0px #000000;
+    margin-right: 0;
+    text-decoration: none;
+    background: linear-gradient(to right, black 50%, var(--orange-fourth-color) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-position: left bottom;
+    box-shadow: 5px 5px 0px var(--orange-fourth-color);
+}
