@@ -1,0 +1,25 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.2s;
+}
+
+.action:hover {
+    color: var(--orange-first-color);
+    text-shadow: 2px 2px 2px var(--black-color);
+    
+}
+
+.action::before {
+    content: '';
+    background-color: var(--orange-third-color);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
