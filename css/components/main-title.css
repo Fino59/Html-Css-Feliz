@@ -1,4 +1,4 @@
-.title {
+.main-title {
     color: var(--orange-fourth-color);
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;  
@@ -6,12 +6,11 @@
     margin-bottom: 28px;
 }
 
-.title.-second{
+.main-title.-second{
     color: white;
     font-size: 40px;
     font-family: 'Press Start 2P', cursive;
     font-weight: 400;
-    text-align: center;
-    padding-top: 25px;  
+    text-align: center;    
     text-shadow: none;
 }
