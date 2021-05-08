@@ -5,3 +5,13 @@
     text-shadow: 4px 4px 0 #000000;
     margin-bottom: 28px;
 }
+
+.title.-second{
+    color: white;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;  
+    text-shadow: none;
+}
