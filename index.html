@@ -10,12 +10,14 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/components/header.css">
         <link rel="stylesheet" href="./css/components/banner.css">
-        <link rel="stylesheet" href="./css/components/skills.css">
-        <link rel="stylesheet" href="./css/components/title.css">
+        <link rel="stylesheet" href="./css/components/section.css">
+        <link rel="stylesheet" href="./css/components/main-title.css">
         <link rel="stylesheet" href="./css/components/subtitle.css">
         <link rel="stylesheet" href="./css/components/box.css">
         <link rel="stylesheet" href="./css/components/button.css">
-        <link rel="stylesheet" href="./css/components/action.css">              
+        <link rel="stylesheet" href="./css/components/action.css"> 
+        <link rel="stylesheet" href="./css/components/skills-tec.css">
+        <link rel="stylesheet" href="./css/components/progress-bar.css">             
         <title>Curso HTML e CSS #FELIZ</title>
     </head>
     <body>
@@ -34,7 +36,7 @@
             <section class="banner">
                 <div class="wrapper">
                     <div class="box">
-                        <h1 class="title">Danilo Fontes</h1>
+                        <h1 class="main-title">Danilo Fontes</h1>
                         <h2 class="subtitle">FrontEnd Developer</h2>
                     </div>
 
@@ -45,9 +47,16 @@
                 </div>
             </section> 
 
-            <section id="skills" class="skills">
-                <h2 class="title -second">Skills</h2>
+            <section id="skills" class="section">
+                <h2 class="main-title -second">Skills</h2>
                 
+                <article class="skill-tec">
+                    <img class="icon" src="./assets/img/ico_html5.png" alt="Logo HTML 5">
+                    <div class="right ">
+                        <h3 class="title">HTML</h3>                    
+                        <progress class="progress-bar" max="100" value="60"></progress>                        
+                    </div>                    
+                </article>
             </section>
         </main>
 
