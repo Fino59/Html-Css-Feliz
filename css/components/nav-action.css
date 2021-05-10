@@ -1,4 +1,4 @@
-.action {
+.nav-action {
     display: inline-flex;
     align-items: center;
     color: white;
@@ -9,13 +9,13 @@
     transition: 0.2s;
 }
 
-.action:hover {
+.nav-action:hover {
     color: var(--orange-first-color);
     text-shadow: 2px 2px 2px var(--black-color);
     
 }
 
-.action::before {
+.nav-action::before {
     content: '';
     background-color: var(--orange-third-color);
     width: 10px;
