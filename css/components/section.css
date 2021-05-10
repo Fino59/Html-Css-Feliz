@@ -1,8 +1,12 @@
 .section {
     background-color: var(--purple-second-color);
-    width: 100%;
-    height: 730px;
+    width: 100%;    
     border-bottom: 10px solid var(--orange-fifth-color);
     padding-top: 50px;  
     padding-bottom: 100px;
+}
+
+.section .main-title, 
+.section-projects .main-title {
+    margin-bottom: 60px;
 }
