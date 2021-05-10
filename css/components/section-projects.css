@@ -13,8 +13,8 @@
 }
 
 .section-projects img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 section.main-title {
@@ -27,5 +27,5 @@ section.main-title {
 }
 
 .img-logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
