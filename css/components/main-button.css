@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;     
     color: white;
     font-size: 20px;
@@ -12,7 +12,7 @@
     transition: all .5s ease-out;
 }
 
-.button:hover {
+.main-button:hover {
     color: #ffffff;
     background-position: left bottom;
     box-shadow: 5px 5px 0px var(--orange-fourth-color);
