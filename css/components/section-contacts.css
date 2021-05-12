@@ -16,6 +16,14 @@
     flex-direction: column;    
 }
 
+.section-contact .form .main-input{
+    margin-bottom: 20px;
+}
+
+.section-contact .form .main-input:last-of-type {
+    margin-bottom: 40px;
+}
+
 .section-contact .main-title {
     margin-bottom: 60px;
 }
