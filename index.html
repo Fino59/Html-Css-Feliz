@@ -24,7 +24,9 @@
         <link rel="stylesheet" href="./css/components/about-section.css">
         <link rel="stylesheet" href="./css/components/node-card.css"> 
         <link rel="stylesheet" href="./css/components/main-carousel.css">
-        <link rel="stylesheet" href="./css/components/button-arrow.css"> 
+        <link rel="stylesheet" href="./css/components/button-arrow.css">
+        <link rel="stylesheet" href="./css/components/section-contacts.css">
+        <link rel="stylesheet" href="./css/components/main-label.css"> 
         <link rel="stylesheet" href="./css/components/main-footer.css">   
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">        
         <title>Curso HTML e CSS #FELIZ</title>
@@ -192,24 +194,25 @@
 
             <section id="contacts" class="section-contact">
                 <h2 class="main-title -second">Contatos</h2>
-                <form action="submit">
-
-                </form>
-                <label for="POST-name">Name:</label>
-                <input id="POST-name" type="text" name="name">
-                <label for="POST-name">Email:</label>
-                <input id="POST-name" type="text" name="name">
-                <label for="POST-name">Mensagem:</label>
-                <input id="POST-name" type="text" name="name">
-                <input type="submit" value="Save">
+                <div class="wrapper-form">
+                    <form action="submit" class="form">
+                        <label class="main-label" for="name">Nome:</label>
+                        <input id="name" type="text" name="name">
+                        <label class="main-label" for="email">Email:</label>
+                        <input id="email" type="email" name="name">
+                        <label class="main-label" for="message">Mensagem:</label>
+                        <textarea name="" id="message"></textarea>
+                        <input type="submit" value="Enviar" class="main-button">
+                    </form>
+                </div>
             </section>
 
         </main>
 
             <footer class="main-footer">
-               <figure></figure><a href="https://github.com/Fino59" target="_blank"><i class="devicon-github-original"></i></a></figure>
-               <figure><a href=""><i class="devicon-codepen-plain"></i></a></figure>
-               <figure><a href=""><i class="devicon-linkedin-plain"></i></a></figure>
+               <a href="https://github.com/Fino59" target="_blank"><i class="devicon-github-original"></i></a>
+               <a href="https://codepen.io/Fino59"><i class="devicon-codepen-plain"></i></a>
+               <a href="https://www.linkedin.com/in/daniloalvimfontes/"><i class="devicon-linkedin-plain"></i></a>
             </footer>
         
         <script src="./scripts/main-carousel.js"></script>

@@ -1,0 +1,22 @@
+.section-contact {
+    background-color: var(--dark-grey-color);
+    border-bottom: 10px solid var(--orange-fifth-color);
+    padding-top: 50px;  
+    padding-bottom: 100px;      
+}
+
+.section-contact .wrapper-form {
+    display: flex;
+    justify-content: center;
+}
+
+.section-contact .form {
+    width: 80%;
+    display: flex; 
+    flex-direction: column;    
+}
+
+.section-contact .main-title {
+    margin-bottom: 60px;
+}
+
