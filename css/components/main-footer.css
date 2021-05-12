@@ -1,0 +1,24 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--purple-fifth-color);
+    padding: 20px 0;
+
+}
+
+.devicon-github-original,
+.devicon-codepen-plain,
+.devicon-linkedin-plain {
+    font-size: 3rem;
+    color: var(--orange-third-color); 
+    padding: 20px;   
+}
+
+.devicon-github-original:visited,
+.devicon-github-original:active {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
