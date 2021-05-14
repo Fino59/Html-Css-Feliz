@@ -14,10 +14,7 @@
     --orange-first-color: #FF9E00;
 }
 
-header .logo {
-    width: 60px;
-    height: 60px;    
-}
+
 
 footer {
     background-color: var(--purple-third-color);

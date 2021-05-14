@@ -5,3 +5,8 @@
     border-bottom: solid 10px #000000;
     padding: 10px 20px;
 }
+
+.main-header .logo {
+    width: 70px;
+    height: 70px;    
+}
