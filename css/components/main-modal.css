@@ -1,0 +1,80 @@
+.main-modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-modal.show {
+    display: flex;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.show .snake-modal, 
+.show .flix-modal,
+.show .mental-modal,
+.show .percent-modal,
+.show .finances-modal {
+    animation: modal .4s;
+}
+
+.snake-modal, 
+.flix-modal,
+.mental-modal,
+.percent-modal,
+.finances-modal {
+    background-color: var(--purple-fifth-color);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 10px solid var(--orange-third-color);
+    box-shadow: 10px 10px 0px white;
+    position: relative;
+}
+
+.flix-modal img,
+.mental-modal img,
+.percent-modal img,
+.finances-modal img{
+    width: 80%;
+    height: 40%;
+}
+
+.close {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    background-color: var(--purple-fifth-color);
+    color: var(--orange-third-color);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.close:hover {
+    border: 5px solid var(--orange-third-color);
+    background-color: white;
+    color: var(--purple-fifth-color);
+}

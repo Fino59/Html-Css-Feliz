@@ -28,7 +28,8 @@
         <link rel="stylesheet" href="./css/components/section-contacts.css">
         <link rel="stylesheet" href="./css/components/main-label.css">
         <link rel="stylesheet" href="./css/components/main-input.css"> 
-        <link rel="stylesheet" href="./css/components/main-footer.css">   
+        <link rel="stylesheet" href="./css/components/main-footer.css"> 
+        <link rel="stylesheet" href="./css/components/main-modal.css">  
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">        
         <title>Curso HTML e CSS #FELIZ</title>
     </head>
@@ -113,21 +114,26 @@
                 
                 <h2 class="main-title -second">Projetos</h2>
                 <div class="icons">
-                    <a href="https://fino59.github.io/SnakeGame/" target="_blank">
-                        <img src="./assets/img/Snake game icon.png" alt="Logo Snake Game"class="img-logo">
-                    </a>
-                    <a href="https://fino-flix.vercel.app/" target="_blank">
-                        <img src="./assets/img/Finoflix icon.png" alt="Logo Finoflix" class="img-logo">
-                    </a>
-                    <a href="https://fino59.github.io/Mentalista/" target="_blank">
-                        <img src="./assets/img/Mentalista icon.png" alt="Logo Mentalista" class="img-logo">
-                    </a>
-                    <a href="https://fino59.github.io/Porcentagem-Reversa/" target="_blank">
-                        <img src="./assets/img/P Reversa icon.png" alt="Logo Porcentagem Reversa" class="img-logo">
-                    </a>
-                    <a href="https://fino59.github.io/Maratona-Discovery/" target="_blank">
+                    <figure class="snake">
+                        <img src="./assets/img/Snake game icon.png" alt="Logo Snake Game" class="img-logo">
+                    </figure>
+      
+                    <figure class="finoflix">
+                        <img src="./assets/img/Finoflix icon.png" alt="Logo Finoflix" class="img-logo">                    
+                    </figure>
+      
+                    <figure class="mentalist">
+                        <img src="./assets/img/Mentalista icon.png" alt="Logo Mentalista" class="img-logo">                    
+                    </figure>
+      
+                    <figure class="reverse">
+                        <img src="./assets/img/P Reversa icon.png" alt="Logo Porcentagem Reversa" class="img-logo">                    
+                    </figure>
+                    
+                    <figure class="finances">
                         <img src="./assets/img/Dev Finances icon.png" alt="Logo Dev Finances"class="img-logo">
-                    </a>
+                    </figure>
+                    
                     
                     
                 </div>
@@ -218,12 +224,68 @@
 
         </main>
 
-            <footer class="main-footer">
-               <a href="https://github.com/Fino59" target="_blank"><i class="devicon-github-original"></i></a>
-               <a href="https://codepen.io/Fino59"><i class="devicon-codepen-plain"></i></a>
-               <a href="https://www.linkedin.com/in/daniloalvimfontes/"><i class="devicon-linkedin-plain"></i></a>
-            </footer>
-        
+        <footer class="main-footer">
+                    <a href="https://github.com/Fino59" target="_blank"><i class="devicon-github-original"></i></a>
+                    <a href="https://codepen.io/Fino59"><i class="devicon-codepen-plain"></i></a>
+                    <a href="https://www.linkedin.com/in/daniloalvimfontes/"><i class="devicon-linkedin-plain"></i></a>
+        </footer>
+
+        <section id="snake-modal" class="main-modal">
+            <div class="snake-modal" >
+                <button class="close">X</button>
+                <h3 class="main-title -modal">Snake Game</h3>
+                <p>O famoso jogo da cobrinha. Criado utilizando Javascript, um pouco de css e uma pitada de html. Clique na imagem para acessar:</p>
+                <a href="https://fino59.github.io/SnakeGame/" target="_blank">
+                    <img src="./assets/img/snake.png" alt="Snake Game screenshot">
+                </a>
+            </div>
+        </section>
+
+        <section id="flix-modal" class="main-modal">
+            <div class="flix-modal">
+                <button class="close">X</button>
+                <h3 class="main-title -modal">Fino Flix</h3>
+                <p>Projeto criado utilizando React, fazendo alusão a Netflix, porém com conteudo de meu interesse. Clique na imagem para acessar:</p>
+                <a href="https://fino-flix.vercel.app/" target="_blank">
+                    <img src="./assets/img/finoflix.png" alt="Fino Flix screenshot">
+                </a>
+            </div>
+        </section>
+
+        <section id="mental-modal" class="main-modal">
+            <div class="mental-modal">
+                <button class="close">X</button>
+                <h3 class="main-title -modal">Mentalista</h3>
+                <p>Um jogo de adivinhação. Qual número o pc escolheu? Tente adivinhar. Criado com Javascript. Clique na imagem para acessar:</p>
+                <a href="https://fino59.github.io/Mentalista/" target="_blank">
+                    <img src="./assets/img/mentalist.png" alt="Mentalista screenshot">
+                </a>
+            </div>
+        </section>
+
+        <section id="percent-modal" class="main-modal">
+            <div class="percent-modal">
+                <button class="close">X</button>
+                <h3 class="main-title -modal">Porcentagem Reversa</h3>
+                <p>Uma calculadora de porcentagem diferente. Criada utilizando Javascript. Clique na imagem para acessar:</p>
+                <a href="https://fino59.github.io/Porcentagem-Reversa/" target="_blank">
+                    <img src="./assets/img/reversepercent.png" alt="Porcentagem Reversa screenshot">
+                </a>
+            </div>
+        </section>
+
+        <section id="finances-modal" class="main-modal">
+            <div class="finances-modal">
+                <button class="close">X</button>
+                <h3 class="main-title -modal">dev.finance$</h3>
+                <p>Um app nos moldes calculadora financeira atualizando em tempo real sua quantia. Criado utilizando Javascript. Clique na imagem para acessar:</p>
+                <a href="https://fino59.github.io/Maratona-Discovery/" target="_blank">
+                    <img src="./assets/img/finances.png" alt="Dev Finances screenshot">
+                </a>
+            </div>
+        </section>
+                
         <script src="./scripts/main-carousel.js"></script>
+        <script src="./scripts/main-modal.js"></script>
     </body>
 </html>

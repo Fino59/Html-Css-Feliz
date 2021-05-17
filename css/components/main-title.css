@@ -14,3 +14,8 @@
     text-align: center;    
     text-shadow: none;    
 }
+
+.main-title.-modal {
+    font-size: 30px;
+    text-shadow: 2px 2px 0 #fff;
+}

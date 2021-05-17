@@ -13,3 +13,4 @@ arrowRight.addEventListener('click', function(){
     move = move + 100;
     elements.style = `transform: translateX(${move}px)`;
 })
+
