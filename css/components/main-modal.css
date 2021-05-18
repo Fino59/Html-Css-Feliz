@@ -71,6 +71,7 @@
     color: var(--orange-third-color);
     font-size: 25px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .close:hover {
