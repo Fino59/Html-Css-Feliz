@@ -12,6 +12,13 @@
     font-size: 3rem;
     color: var(--orange-third-color); 
     padding: 20px;   
+    transition: 200ms;
+}
+
+.devicon-github-original:hover,
+.devicon-codepen-plain:hover,
+.devicon-linkedin-plain:hover {
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
 }
 
 .devicon-github-original:visited,
