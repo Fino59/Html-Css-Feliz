@@ -10,3 +10,20 @@
     width: 70px;
     height: 70px;    
 }
+
+@media (max-width: 400px) {
+    .main-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: justify;
+    }
+
+    nav {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+}
+
