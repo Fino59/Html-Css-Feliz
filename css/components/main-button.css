@@ -19,8 +19,9 @@
 }
 
 @media (max-width: 400px) {
-    .main-button {
+    .main-button {        
         padding: 10px 12px;
         font-size: 18px;
+        margin-left: 15px;
     }
 }

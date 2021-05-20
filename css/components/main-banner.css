@@ -25,11 +25,30 @@
 }
 
 @media (max-width: 400px) {
+    .main-banner {
+        background-color: var(--purple-third-color);
+    background-position: right;
+    background-size: cover;
+    border-bottom: 10px solid var(--black-color);
+    height: 460px;
+    padding-left: 55px;
+    padding-top: 195px;
+    }
     .main-banner .wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 240px;
+    }
+
+    .main-banner .main-box {
+        width: 230px;
+        padding: 20px 45px;
+        margin-bottom: 200px;
+    }
+
+    .main-banner .navigation {
+        visibility: hidden;
     }
 }

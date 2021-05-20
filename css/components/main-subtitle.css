@@ -4,3 +4,9 @@
     font-family: 'Press Start 2P', cursive;
     text-shadow: 4px 4px 0 #000;
 }
+
+@media (max-width: 400px) {
+    .main-subtitle {
+        font-size: 12px;
+    }
+}

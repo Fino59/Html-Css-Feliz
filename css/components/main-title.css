@@ -19,3 +19,13 @@
     font-size: 30px;
     text-shadow: 2px 2px 0 #fff;
 }
+
+@media (max-width: 400px) {
+    .main-title {
+        font-size: 30px;
+    }
+
+    .main-title.-second {
+        font-size: 28px;
+    }
+}
