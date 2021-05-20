@@ -10,3 +10,10 @@
 .section-projects .main-title {
     margin-bottom: 60px;
 }
+
+@media (max-width: 400px) {
+    .section-skill {
+        padding-left: 10px;
+        padding-bottom: 50px;
+    }    
+}

@@ -20,3 +20,9 @@
 .skill-tec .title {
     margin-bottom: 10px;
 }
+
+@media (max-width: 400px) {
+    .skill-tec {
+        font-size: 19px;
+    }
+}
