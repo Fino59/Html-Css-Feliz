@@ -53,3 +53,9 @@
     justify-content: space-evenly; 
     transition: transform 120ms ease-in-out;    
 }
+
+@media (max-width: 400px) {
+    .main-carousel {
+        padding-bottom: 0;
+    }
+}
