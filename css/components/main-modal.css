@@ -80,3 +80,22 @@
     background-color: white;
     color: var(--purple-fifth-color);
 }
+
+@media (max-width: 400px) {
+    .snake-modal, 
+    .flix-modal,
+    .mental-modal,
+    .percent-modal,
+    .finances-modal {
+        font-size: 16px;
+    }
+
+    .snake-modal img,
+    .flix-modal img,
+    .mental-modal img,
+    .percent-modal img, 
+    .finances-modal img {
+    width: 90%;
+    height: 50%;
+    }
+}

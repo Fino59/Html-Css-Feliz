@@ -28,4 +28,8 @@
     .main-title.-second {
         font-size: 28px;
     }
+
+    .main-title.-modal {
+        font-size: 17px;
+    }
 }
