@@ -25,4 +25,8 @@
     .skill-tec {
         font-size: 19px;
     }
+
+    .skill-tec .icon {
+        margin-left: 10px;
+    }
 }
