@@ -9,7 +9,7 @@
     content: '';
     box-sizing: border-box;
     width: 40px;
-    border-top: 4px dashed #000;
+    border-top: 4px dashed var(--black-color);
     transform: rotate(90deg);
     position: absolute;
     bottom: 175px;
@@ -30,7 +30,7 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 20px;
-    border: 5px solid #000;
+    border: 5px solid var(--black-color);
     background-color: var(--light-grey-color);
 }
 

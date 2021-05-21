@@ -1,6 +1,7 @@
 :root {
+    --white-color: #ffffff;
     --black-color: #000000;
-    --dark-grey-color: #555555; 
+    --dark-grey-color: #3A4042; 
     --light-grey-color: #999999;   
     --purple-fifth-color: #240046;
     --purple-fourth-color: #3C096C;
@@ -13,7 +14,6 @@
     --orange-second-color: #FF9100;
     --orange-first-color: #FF9E00;
 }
-
 
 
 footer {

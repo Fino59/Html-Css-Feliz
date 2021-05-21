@@ -27,12 +27,12 @@
 @media (max-width: 400px) {
     .main-banner {
         background-color: var(--purple-third-color);
-    background-position: right;
-    background-size: cover;
-    border-bottom: 10px solid var(--black-color);
-    height: 460px;
-    padding-left: 55px;
-    padding-top: 195px;
+        background-position: right;
+        background-size: cover;
+        border-bottom: 10px solid var(--black-color);
+        height: 460px;
+        padding-left: 55px;
+        padding-top: 195px;
     }
     .main-banner .wrapper {
         display: flex;

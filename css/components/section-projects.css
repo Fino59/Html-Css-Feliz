@@ -22,7 +22,7 @@ section.main-title {
 }
 
 .img-logo {
-    box-shadow: 10px 10px 0 #fff;
+    box-shadow: 10px 10px 0 var(--white-color);
     transition: 300ms;
 }
 

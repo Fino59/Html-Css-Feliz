@@ -15,7 +15,7 @@
     display: block;
     height: 6px;
     width: calc(100% - 80px);
-    background-color: black;
+    background-color: var(--black-color);
     top: 28px;
 }
 
@@ -24,7 +24,7 @@
     position: absolute;
     left: 0;
     display: block;
-    border: 3px dashed black;
+    border: 3px dashed var(--black-color);
     width: 100%;    
     top: 28px;
 }
